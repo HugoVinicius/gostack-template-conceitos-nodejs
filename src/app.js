@@ -68,7 +68,7 @@ app.post("/repositories/:id/like", ValidIdRepository, (request, response) => {
   const repositoryIndex = repositories.findIndex(rep => rep.id === id);
 
   const like = {
-    owner: 'Hugo Vinicius',
+    owner: 'Hugo',
     repositoryId: repositoryIndex
   }
 
